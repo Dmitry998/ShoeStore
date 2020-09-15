@@ -1,0 +1,197 @@
+.formSearch{
+	color: #6e6c78;
+	float: right;
+	font-size: 18px;
+}
+.formSearch button{
+	border: 1px solid #6e6c78;
+	background-color: #27263D;
+	color: #6e6c78;
+}
+.formSearch button:hover{
+	border: 1px solid red;
+	color: #7aa899;
+}
+
+.selection {
+	background-color: #7aa899;
+}	
+
+.top-menu{
+	height: 100px;
+	background-color: #27263D;
+	border: 5px solid #6e6c78;
+	text-align: center;
+}
+body{
+	background-image: url(Files/whiteFon.jpg);
+}
+
+.top-menu ul li{
+display: inline-block;
+font-size: 22px;
+}
+
+h2{
+	text-align: center;
+	color: #6e6c78;
+}
+
+.top-menu a{
+	display: block; /* ссылка растягивается на весь пункт li */
+	padding: 15px 35px; /* задаем внутренние отступы */
+	color: #6e6c78; /* цвет текста */
+	text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
+}	
+.top-menu a:hover{
+	background-color: #7aa899;
+	color: white;
+}	
+
+.logo {
+	display: inline-block; 
+	padding: 25px;
+	margin-left: 30px;
+	float: left;
+}
+.auth{
+	display: inline-block; 
+	 float: right;
+}
+.auth ul li{
+	display: inline-block;
+	/*text-align: center;*/
+	font-size: 22px;
+}
+.auth a{
+	display: block; /* ссылка растягивается на весь пункт li */
+	padding: 15px 35px; /* задаем внутренние отступы */
+	color: #6e6c78; /* цвет текста */
+	text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
+}	
+.auth a:hover{
+	background-color: #7aa899;
+	color: white;
+}	
+.content{
+	/*background-color: white;*/
+	min-height: 800px;
+}
+.footer{
+	height: 100px;
+	background-color: #27263D;
+	border: 5px solid #6e6c78;
+	text-align: left;
+	font-size: 14px;
+	color: #6e6c78;
+}
+#ajaxDiv table { 
+	margin-left: auto;
+    margin-right: auto;
+	border: 5px solid #6e6c78;
+	border-collapse: collapse;
+	margin: center;
+	background-color: white;
+	text-align: center;
+}
+#ajaxDiv th {
+	background-color: #27263D;
+	height: 50px;
+	color: #6e6c78;
+}
+#ajaxDiv td,th {
+	border: 5px solid #6e6c78;
+	font-size: 18px;
+	margin: center;
+	width: 200px;
+	color: #6e6c78;
+}
+
+#ajaxDiv {
+	margin: center;
+	text-align: center;
+}
+
+#ajaxDiv button{
+	background-color: #27263D;
+	color: #6e6c78;
+	width: 200px;
+	height: 200px;
+	font-size: 18px;
+}
+
+#ajaxDiv button:hover{
+	border: 1px solid red;
+	background-color: #6e6c78;
+	color: #7aa899;
+	width: 200px;
+	height: 200px;
+	font-size: 18px;
+}
+
+
+.formInput {
+	text-align: center;
+	border: 5px solid #6e6c78;
+	/*background-color: white;*/
+	color:#6e6c78;
+	font-size: 18px;
+	width:600px;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+.formInput input{
+	width: 98%;
+}
+
+.formInput button{
+	border: 1px solid #6e6c78;
+	background-color: #27263D;
+	color: #6e6c78;
+	width: 98%;
+	padding:  10px;
+}
+
+.formInput button:hover{
+	border: 1px solid red;
+	color: #7aa899;
+	width: 98%;
+	padding:  10px;
+}
+
+#buttonA {
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: middle;
+	width: 198px;
+	height: 198px;
+	font-size: 18px;
+	background-color: #27263D;
+	color: #6e6c78;
+}
+#buttonA:hover {
+	border: 1px solid red;
+	background-color: #6e6c78;
+	color: #7aa899;
+	width: 198px;
+	height: 198px;
+	font-size: 18px;
+}
+
+.mainPage{
+	text-align: center;
+	/*background-color: white;*/
+	color:#6e6c78;
+	font-size: 18px;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+#imgBorder{
+	border: 5px solid #6e6c78;
+}
